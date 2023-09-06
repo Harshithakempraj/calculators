@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.calculator {
+    background-color: #FDFEFE ;
+    border-radius: 150%; /* Change to circular shape */
+    border: double black 1px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 385px; /* Maintain the width */
+    height: 385px; /* Set the same height as width for a perfect circle */
+    padding: 35px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 2px;
+    font-size: 20px;
+    border: solid black 2px;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #05FBF4;
+    color: #fff;
+    border: dotted black 2px;
+    border-radius: 50%; /* Change to round shape */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
