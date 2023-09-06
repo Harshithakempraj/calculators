@@ -1,0 +1,96 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C39BD3 ;
+    color: #353A98 ;
+}
+.header {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_EyvuCRja1RAmymg7o7VvZiaMV_oh3BGJB_Mm4ZyoSVvczKQ4DzXeiJMylz2zLaMGEcM&usqp=CAU");
+    color: #ECF0F1 ;
+    text-align: center;
+    padding: 1rem 0;
+}
+.header .logo {
+      font-size: 25px;
+      font-family: 'Sriracha', cursive;
+      color: #ECF0F1 ;
+      text-decoration: none;
+      margin-left: 30px;
+}
+.nav-items {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-right: 20px;
+}
+
+.nav-items a {
+      text-decoration: none;
+      color: #F0F3F4;
+      padding: 35px 20px;
+}
+
+.main-content {
+    padding: 2rem;
+    color:#0758F9 ;
+}
+.course-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color:#86176B;
+}
+
+.course-details ul {
+    list-style: square;
+    margin-left: 1.5rem;
+    color:#F907D5;
+}
+.course-features h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color:#CB4335;
+}
+
+.feature {
+    margin-bottom: 2rem;
+    color:#283747;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+}
+.course-options h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color:#922B21 ;
+}
+
+.option {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #AF7AC5;
+}
+.enroll-button {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #273746;
+    color: #F7F9F9 ;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #C39BD3;
+    color: #fff;
+}
